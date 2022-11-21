@@ -1,0 +1,324 @@
+
+html, body {
+    background-color: #121212;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+main#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#star-wars {
+    width: 100%;
+    position: relative;
+    padding: 0 85px 0 85px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.primary{
+    max-width: 1280px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+   width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+}
+
+.row-Collection {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05) ;
+    background-color: var(--bs-body-color);
+}
+
+.col-md-6 {
+    height: 220px;
+    width: 226px;
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.row.row-cols-1.row-cols-md-2.g-4 {
+    max-width: 1024px;
+}
+
+container.container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.primary-color{
+    color: #FFFFFF;
+}
+
+.title-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-weight: normal;
+}
+
+div#cards {
+    margin-top: 0;
+    display: flex;
+}
+
+#cards .col {
+    padding: 10px 10px;
+}
+
+.col .card {
+    border: 0 none transparent;
+    width: 358px;
+}
+
+h5.card-title-Collection {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    height: 5%;
+}
+
+
+
+.img-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+h2.card-text-Collection {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 55%;
+}
+
+.btn-mdn-primary {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+ul.list-footer-Collection {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.row.row-cols-1.row-Collection-footer {
+    justify-content: center;
+}
+
+.list-footer-Collection {
+    width: 70%;
+}
+
+li.list-footer-item         {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    list-style-type: none;
+    color: #E0E0E0;
+}
+
+footer#footer-Collectio {
+    bottom: 0;
+    width: 100%;
+    padding: 30px 20px 0 20px;
+    position: inherit !important;
+    background-color: #000;
+}
+
+p.text-footer {
+    text-align: center;
+    margin: auto;
+}
+
+a.text-white {
+    text-decoration: none;
+}
+
+.card-img-episode {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row.row-cols-1.row-cols-md-3.g-5 {
+    max-width: 1200px;
+}
+
+.container-btn {
+    width: 115%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 25%;
+}
+
+img.img-Collection {
+    margin: 0 0 0 8px;
+}
+
+.btn-mdn-primary {
+    display: flex;
+    width: 100%;
+    right: 40px;
+    background-color: transparent;
+}
+
+button.btn.btn-outline-primary {
+    width: 165%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    height: 40px;
+}
+
+button#btn-Collection {
+    width: 65%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    height: 40px;
+    color: #fff;
+    border-color: #fff;
+}
+
+a.linck-Films {
+    width: 54%;
+}
+
+.row-Collection:hover{
+    background-color: #0112FE;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    button#btn-Collection:hover {
+    background-color: #fff;
+    color: #0112FE;
+}
+}
+
+.row-Collection:hover button#btn-Collection {
+    background-color: #fff;
+    color: #0112FE;
+}
+.card-body-Collectio {
+    flex: 1 1 auto;
+    /* padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x); */
+    /* color: var(--bs-card-color); */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 10px 15px;
+    align-content: stretch;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+a.linck-episode {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    footer#footer-Collectio {      
+        padding: 30px 20px 5px;
+        bottom: 0;       
+    }
+
+    div#cards {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 600px){
+    li.list-footer-item {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    li.list-footer-item {
+        font-size: 8px;
+    }
+}
+
+

@@ -1,0 +1,144 @@
+main#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3.episode-detail {
+    color: #B0AFAF;
+}
+
+container.episode {
+    display: flex;
+    max-width: 1024px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-movie {
+    display: flex;
+    width: 350px;
+    height: 532px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0 0 0 30px;
+}
+
+header.episode-info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h2.episode {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+h1.title-episode {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.info-episode {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+ul.info-episode-details {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+span.episode-category {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B0AFAF;
+}
+
+li.info-detail-mouve {
+    display: flex;
+    width: 30%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+h3.episode-detail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+
+card.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+span.episode-synopsis {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #B0AFAF;
+    padding: 10px;
+}
+
+.img-movie img {
+    width: 350px;
+    height: 532px;
+}
+@media (max-width: 992px){
+    container.episode{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0;
+    width: 80%;
+}
+    h1.title-episode {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 60px;
+}
+    
+}
